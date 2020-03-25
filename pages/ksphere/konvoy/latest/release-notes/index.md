@@ -17,6 +17,12 @@ enterprise: false
 
 ### Version v1.4.2 - Released 24 March 2020
 
+| Kubernetes Support | Version |
+| ------------------ | ------- |
+|**Minimum** | 1.15.4 |
+|**Maximum** | 1.16.x |
+|**Default** | 1.16.8 |
+
 #### Disclaimer
 
 -   The default value of `vpc.enableVPCEndpoints` was changed to `false` to prevent Konvoy unexpectedly modifying the endpoints in user provided VPCs.
@@ -59,6 +65,12 @@ enterprise: false
 
 ### Version v1.4.1 - Released 04 March 2020
 
+| Kubernetes Support | Version |
+| ------------------ | ------- |
+|**Minimum** | 1.15.4 |
+|**Maximum** | 1.16.x |
+|**Default** | 1.16.4 |
+
 #### Improvements
 
 - Update certain Ansible tasks to correctly reflect the changed status.
@@ -70,6 +82,12 @@ enterprise: false
 - Fixed a bug that would fail to install on Ubuntu if containerd.io was not already installed.
 
 ### Version v1.4.0 - Released 28 February 2020
+
+| Kubernetes Support | Version |
+| ------------------ | ------- |
+|**Minimum** | 1.15.4 |
+|**Maximum** | 1.16.x |
+|**Default** | 1.16.4 |
 
 #### Disclaimer
 
