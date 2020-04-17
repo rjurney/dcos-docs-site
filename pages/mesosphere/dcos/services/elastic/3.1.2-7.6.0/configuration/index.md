@@ -63,7 +63,7 @@ If you let your license expire, remember these two important points:
 - Your data is still there.
 - All data operations (read and write) continue to work.
 
-[Graph](https://www.elastic.co/guide/en/x-pack/current/graph-getting-started.html), [Machine Learning](https://www.elastic.co/guide/en/x-pack/current/ml-getting-started.html), [Alerting and Notification](https://www.elastic.co/guide/en/x-pack/current/watcher-getting-started.html), [Monitoring](https://www.elastic.co/guide/en/x-pack/current/monitoring-getting-started.html), and [Security](https://www.elastic.co/guide/en/x-pack/current/security-getting-started.html) features all operate with reduced functionality when the license expires.
+[Graph](https://www.elastic.co/what-is/elasticsearch-graph), [Machine Learning](https://www.elastic.co/what-is/elasticsearch-machine-learning), [Alerting and Notification](https://www.elastic.co/what-is/elasticsearch-alerting), [Monitoring](https://www.elastic.co/what-is/elasticsearch-monitoring), and [Security](https://www.elastic.co/what-is/elastic-stack-security) features all operate with reduced functionality when the license expires.
 
 Click [here](https://www.elastic.co/guide/en/x-pack/current/license-expiration.html) to learn more about how X-Pack license expiration is handled.
 
@@ -267,7 +267,7 @@ If Kibana was installed without X-Pack Security enabled, you should be able to a
 
 #### Kibana with X-Pack Security enabled
 
-Due to a known [limitation](/mesosphere/dcos/services/elastic/3.1.1-7.6.0/limitations#kibana-service-url-does-not-work-on-dcos-111), if you installed Kibana with X-Pack Security enabled, you will not be able to access it through the default DC/OS 1.11 UI Service link. In this case you must [expose Kibana using EdgeLB](/mesosphere/dcos/services/elastic/3.1.1-7.6.0/how-to-guides#expose-kibana-using-edgelb).
+Due to a known [limitation](/mesosphere/dcos/services/elastic/3.1.2-7.6.0/limitations#kibana-service-url-does-not-work-on-dcos-111), if you installed Kibana with X-Pack Security enabled, you will not be able to access it through the default DC/OS 1.11 UI Service link. In this case you must [expose Kibana using EdgeLB](/mesosphere/dcos/services/elastic/3.1.2-7.6.0/how-to-guides#expose-kibana-using-edgelb).
 
 ### Configuration Guidelines
 
