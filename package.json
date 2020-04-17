@@ -5,7 +5,7 @@
   "private": true,
   "engineStrict": true,
   "engines": {
-    "node": "8.1.2"
+    "node": "10.19.0"
   },
   "scripts": {
     "dev:tutorials": "RENDER_PATH_PATTERN=1.11/tutorials/** NODE_ENV=development DEBUG=metalsmith-timer,metalsmith-algolia,metalsmith-layouts,metalsmith-assets node index.js",
@@ -66,6 +66,7 @@
     "mkdirp": "^0.5.1",
     "ngindox": "^0.2.0",
     "node-sass": "^4.5.3",
+    "npm": "^6.13.4",
     "postcss-loader": "^2.0.6",
     "pug": "^2.0.0-rc.2",
     "rss": "^1.2.2",
@@ -77,6 +78,5 @@
     "style-loader": "^0.18.2",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0"
-  },
-  "dependencies": {}
+  }
 }
