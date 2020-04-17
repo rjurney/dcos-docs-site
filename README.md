@@ -29,11 +29,17 @@ To get started with the docs, please see [this temporary guide](https://hackmd.i
 ## Setup Mac Dev Environment
 ### Ensure Node is installed
 
-Install node/js 8.1.2
+Install node/js v10.19.0
 
-`brew install node@8.1.2`
+`brew install node@10.19.0`
 
-NB: for devs, make sure you can switch down to an older node via `nvm` or other manager `nvm use 8.1.2`
+NB: for devs, make sure you can switch down to an older node via `nvm` or other manager `nvm install 10.19.0` / `nvm use 10.19.0`
+
+### Install NPM
+
+Install npm v6.13.4
+
+`npm i -g 6.13.4`
 
 ### Ensure a code editor is installed
 we recommend [downloading VSCode](https://code.visualstudio.com/) 
